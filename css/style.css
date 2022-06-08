@@ -1,0 +1,133 @@
+body{
+    color: cadetblue;
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+
+    /* Same as above 
+    font: lighter 20px Arial, Helvetica, sans-serif;
+    */
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.button{
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: solid;
+    border-color: rgb(48, 48, 48);
+}
+
+.button:hover{
+    background: white;
+    color: rgb(48, 48, 48);
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+    left: 0px;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.box-1{
+    background-color: aliceblue;
+    
+    border: 5px red solid;
+    
+    padding: 20px;
+
+    margin: 20px 0px;
+}
+
+.box-1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.box-2{
+    border: 5px dotted blue;
+    margin: 20px 0px;
+    padding: 20px;
+
+}
+
+.categories{
+    border: 2px rgb(255, 140, 0) dashed;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%; 
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.my-list li:first-child{
+     background-color: aqua; 
+}
+
+.my-list li:last-child{
+    background-color:chartreuse;
+}
+
+.my-list li:nth-child(5){
+    background-color:rgb(236, 121, 182);
+}
